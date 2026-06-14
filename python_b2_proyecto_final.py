@@ -475,18 +475,20 @@ La preparación de datos es un paso crucial en el proceso de análisis de datos.
 Comencemos importando los diferentes conjuntos de datos como dataframes utilizando la librería de pandas. Luego, procederemos a presentar los primeros 10 registros.
 """
 
+#Write your code her
+df_retailbank = pd.read_csv("data/RetailBankEFG.csv")
+df.retailbank.head(10)
+"""*Realiza la misma acción para InvestmentBankCDE.csv.*"""
+
 #Write your code here
-df_retailbank = pd.read_csv("change_path_to_RetailBankEFG")
+df_investment = pd.read_csv("data/InvestmentBankCDE.csv")
+df.investment.head(10)
 
 """*Realiza la misma acción para InvestmentBankCDE.csv.*"""
 
 #Write your code here
-df_investment = pd.read_csv("change_path_to_InvestmentBankCDE")
-
-"""*Realiza la misma acción para InvestmentBankCDE.csv.*"""
-
-#Write your code here
-df_insurance = pd.read_csv("change_path_to_InsuranceCompanyABC")
+df_insurance = pd.read_csv("data/InsuranceCompanyABC.csv")
+df.insurance.head(10)
 
 """## Pregunta
 *¿Puedes identificar un atributo común entre los diferentes conjuntos de datos que permita juntarlos?*

@@ -30,3 +30,6 @@ regex
 six
 tomli
 tqdm
+seaborn
+imbalanced-learn
+scikit-learn
